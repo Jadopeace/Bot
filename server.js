@@ -227,7 +227,7 @@ client.on("message", message => {
       .addField("**Channels** : ", `» ${client.channels.size} `, true)
       .addField("**Users** : ", `» ${client.users.size} `, true)
       .addField("**Bot Name** :  ", `» ${client.user.tag} `, true)
-      .addField("**Bot Owner** :  ", `» <@359541019836022784>`, true) // تعديل اساسي غير الايدي لايدي حسابك
+      .addField("**Bot Owner** :  ", `» <@731564423805796363>`, true) // تعديل اساسي غير الايدي لايدي حسابك
       .setImage("")
       .setFooter(message.author.username, message.client.avatarURL);
     message.channel.send(bot);
@@ -1879,7 +1879,7 @@ client.on("message", message => {
         .setColor("RANDOM")
         .setFooter(`نتمنى لكم الاستمتاع`);
 
-      var channel = member.guild.channels.find(gg => gg.name === "log"); //// تعديل اساسي
+      var channel = member.guild.channels.find(gg => gg.name === "supersystemLogs☄️"); //// تعديل اساسي
       if (!channel) return;
       channel.send({ embed: embed });
     });
